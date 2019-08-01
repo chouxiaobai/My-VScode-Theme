@@ -99,7 +99,7 @@
 		},
 		{
 			"name": "Number",
-			"scope": "constant.numeric",
+			"scope": ["constant.numeric"],
 			"settings": {
 				"foreground": "#32ed49"
 			}
@@ -115,7 +115,7 @@
 			"name": "User-defined constant",
 			"scope": "constant.character, constant.other",
 			"settings": {
-				"foreground": "#32ed49"
+				"foreground": "#f0a61c"
 			}
 		},
 		{
@@ -128,32 +128,25 @@
 		},
 		{
 			"name": "Keyword",
-			"scope": "keyword",
+			"scope": ["keyword","storage","keyword.operator"],
 			"settings": {
-				"foreground": "#3ae7e8"
-			}
-		},
-		{
-			"name": "Storage",
-			"scope": "storage",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#F92672"
+				"fontStyle": "bold",
+				"foreground": "#29c1e7"
 			}
 		},
 		{
 			"name": "Storage type",
 			"scope": "storage.type",
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#66D9EF"
+				"fontStyle": "bold",
+				"foreground": "#29c1e7"
 			}
 		},
 		{
 			"name": "Class name",
 			"scope": "entity.name.type, entity.name.class",
 			"settings": {
-				"foreground": "#3efbba"
+				"foreground": "#eebc1a"
 			}
 		},
 		{
@@ -169,15 +162,15 @@
 			"scope": "entity.name.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#f0ac1d"
+				"foreground": "#cacaca"
 			}
 		},
 		{
 			"name": "Function argument",
 			"scope": "variable.parameter",
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FD971F"
+				"fontStyle": "",
+				"foreground": "#cecdcd"
 			}
 		},
 		{
